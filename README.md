@@ -108,11 +108,11 @@ Outlined data-driven strategies to:
 
 ## 📎 Files
 
-* [`Data Integration and Preparation.sql`](.Data Integration and Preparation.sql) – Data joins and prep
-* [`Starhub_CaseStudy_ChurnPrediction_Result.html`](./Python/) – Segmentation and CLTV
+* [`Data Integration and Preparation.sql`](.) – Data joins and prep
+* [`Starhub_CaseStudy_ChurnPrediction_Result.html`](.) – Segmentation and CLTV
 * [`Interactive Analysis.twb`](./Tableau/) – Interactive dashboard
-* [`Customer Insights and Service Optimization Dashboard.pdf`](./Tableau/) – Interactive dashboard
-* [`Unlocking Customer Value_Insights and Strategic Recommendation.pptx`](./Presentation/) – Final strategic recommendations
+* [`Customer Insights and Service Optimization Dashboard.pdf`](.) – Interactive dashboard
+* [`Unlocking Customer Value_Insights and Strategic Recommendation.pptx`](.) – Final strategic recommendations
 
 ---
 
