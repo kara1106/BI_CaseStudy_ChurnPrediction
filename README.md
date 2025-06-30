@@ -13,11 +13,11 @@ This project is a comprehensive business intelligence case study simulating the 
 ## 📁 Project Structure
 
 ```
-├── SQL/                     # Data integration and transformation scripts
-├── Python/                  # Exploratory and statistical analysis
-├── Tableau/                 # Interactive dashboard (.twbx file)
-├── Presentation/            # Final presentation deck (PDF or PPTX)
-├── Predictive_Modeling/     # Churn modeling documentation
+├── Data/                    # Data_Dictionary.xlsx
+├── SQL/                     # Data integration and transformation script
+├── Tableau/                 # Advanced analytics, Interactive dashboard (.twbx/.pdf file)
+├── Python/                  # Predictive Modelling 
+├── Presentation/            # Final presentation deck (PPTX)
 └── README.md                # Project summary and usage instructions
 ```
 
@@ -26,8 +26,10 @@ This project is a comprehensive business intelligence case study simulating the 
 ## 🛠 Tools & Technologies
 
 * **SQL** – Data extraction, transformation, and lifecycle profile building
-* **Python** – Cohort analysis, customer segmentation, CLTV modeling
+* **Tableau** – Advanced analytics, Cohort analysis, customer segmentation, CLTV modeling
+* **Python** – Churn prediction, and what-if analysis
 * **Tableau** – Interactive dashboard with forecasting, churn prediction, and what-if analysis
+
 
 ---
 
@@ -39,7 +41,7 @@ This project is a comprehensive business intelligence case study simulating the 
 * Built unified customer profiles with lifecycle timelines
 * Ensured temporal alignment for accurate monthly snapshot analysis
 
-### ✅ 2. Advanced Analytics (Python)
+### ✅ 2. Advanced Analytics (Tableau)
 
 * Performed **cohort analysis** for churn trends
 * Identified **customer segments** by service mix, value, and behavior
@@ -47,7 +49,15 @@ This project is a comprehensive business intelligence case study simulating the 
 * Quantified **impact of customer service** on churn risk
 * Modeled **Customer Lifetime Value (CLTV)** drivers
 
-### ✅ 3. Tableau Dashboard
+
+### ✅ 3. Predictive Modeling (in Python and Tableau)
+
+* Identified high-risk customers and segments
+* Forecasted churn rates by product line
+* Included scenario modeling: service faults, promotions, etc.
+
+
+### ✅ 4. Tableau Dashboard
 
 Interactive views include:
 
@@ -56,12 +66,7 @@ Interactive views include:
 * 📢 Campaign ROI and retention impact
 * ☎️ Service quality metrics vs churn correlation
 * 🔮 Predictive churn scores with “What-if” levers
-
-### ✅ 4. Predictive Modeling (in Tableau)
-
-* Identified high-risk customers and segments
-* Forecasted churn rates by product line
-* Included scenario modeling: service faults, promotions, etc.
+  
 
 ### ✅ 5. Strategic Recommendations
 
@@ -76,33 +81,44 @@ Outlined data-driven strategies to:
 
 ## 📽 Sample Visuals
 
-> Include screenshots of Tableau dashboards or analysis charts here.
+> <img width="514" alt="image" src="https://github.com/user-attachments/assets/3f96787f-6d0d-48b9-b62c-b8f8d489c923" />
+
+> <img width="611" alt="image" src="https://github.com/user-attachments/assets/5d0e4bb4-667b-4452-9578-db8f97ad7113" />
+
+> <img width="499" alt="image" src="https://github.com/user-attachments/assets/b42f01c8-a8bc-405d-84a5-3456a503be89" />
+
+
+
+.
 
 ---
 
 ## 🧠 Insights Summary
 
-* 📉 **Voluntary churn** spikes after service fault complaints
-* 💡 **Campaigns targeting multi-service users** deliver higher CLTV
-* 🧍‍♂️ High-value, low-engagement customers show early churn signs
-* 🛠 Improved fault resolution times reduce churn by \~15%
+* **Campaign Resource Allocation:**
+*    Focus on Cluster 2 and Cluster 3 to maximize cross-sell opportunities across all service types.
+*    Drive revenue growth by leveraging bundled sales centered around mobile services, cross-selling TV and MaxOnline to maximize customer value
+* **Customer Service Efficiency:**
+*    Implement preventive measures to reduce service call volume.
+* **Customer Satisfaction:**
+*    Enhance customer satisfaction by improved and proactive customer service. 
+
 
 ---
 
 ## 📎 Files
 
-* [`SQL/data_integration.sql`](./SQL/) – Data joins and prep
-* [`Python/cohort_cltv_analysis.ipynb`](./Python/) – Segmentation and CLTV
-* [`Tableau/StarHub_Dashboard.twbx`](./Tableau/) – Interactive dashboard
-* [`Predictive_Modeling/model_explained.pdf`](./Predictive_Modeling/) – Modeling assumptions & logic
-* [`Presentation/StarHub_CLM_Pitch.pdf`](./Presentation/) – Final strategic recommendations
+* [`Data Integration and Preparation.sql`](.SQL) – Data joins and prep
+* [`Starhub_CaseStudy_ChurnPrediction_Result.html`](./Python/) – Segmentation and CLTV
+* [`Interactive Analysis.twb`](./Tableau/) – Interactive dashboard
+* [`Customer Insights and Service Optimization Dashboard.pdf`](./Tableau/) – Interactive dashboard
+* [`Unlocking Customer Value_Insights and Strategic Recommendation.pptx`](./Presentation/) – Final strategic recommendations
 
 ---
 
 ## 📬 Contact
 
-For any inquiries or discussions about the project, feel free to reach out via GitHub or \[your email].
+For any inquiries or discussions about the project, feel free to reach out via GitHub or \smilekara1106@gmail.com.
 
 ---
 
-Would you like me to customize it with your actual GitHub repo structure and filenames (if you've uploaded or can describe them)?
