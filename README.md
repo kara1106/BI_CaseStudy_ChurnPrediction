@@ -108,7 +108,7 @@ Outlined data-driven strategies to:
 
 ## 📎 Files
 
-* [`Data Integration and Preparation.sql`](.SQL) – Data joins and prep
+* [`Data Integration and Preparation.sql`](.Data Integration and Preparation.sql) – Data joins and prep
 * [`Starhub_CaseStudy_ChurnPrediction_Result.html`](./Python/) – Segmentation and CLTV
 * [`Interactive Analysis.twb`](./Tableau/) – Interactive dashboard
 * [`Customer Insights and Service Optimization Dashboard.pdf`](./Tableau/) – Interactive dashboard
